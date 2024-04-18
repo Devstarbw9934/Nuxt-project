@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anim-1 {
+  transition: transform 1000ms;
+}
+.anim-1:hover {
+  transform: rotate(5deg) translateY(-62%) translateX(-90%);
+}
+
+.anim-2 {
+  transition: transform 1000ms;
+}
+.anim-2:hover {
+  transform: rotate(10deg) translateY(-82%) translateX(-50%);
+}
